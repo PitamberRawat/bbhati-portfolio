@@ -1,0 +1,65 @@
+.containerDetail {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 3.3vmax;
+}
+.main-detail-heading {
+  font-size: 36px;
+  font-weight: normal;
+}
+.detail-div {
+}
+.main-heading {
+  margin: 35px 0;
+  font-size: 23.8px;
+}
+
+.first-div,
+.second-div {
+  /* padding: 20px; */
+}
+
+.first-div {
+  width: 100%; /* Full width from 0px to 768px */
+  /* background-color: lightblue; */
+}
+
+.second-div {
+  width: 0; /* No width from 0px to 768px */
+  /* background-color: lightcoral; */
+}
+
+@media (min-width: 768px) {
+  .first-div,
+  .second-div {
+    width: 50%; /* Both divs take equal width after 768px */
+  }
+  .detail-div {
+    display: flex;
+  }
+  .main-detail-heading {
+    font-size: 44px;
+  }
+  .main-heading {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .main-detail-heading {
+    font-size: 54.5px;
+  }
+  .main-heading {
+    font-size: 31px;
+  }
+}
+@media (min-width: 1400px) {
+  .main-detail-heading {
+    font-size: 64.5px;
+  }
+  .main-heading {
+    font-size: 35.5px;
+  }
+}

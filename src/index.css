@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Orpheus Pro";
+}
+
+:root {
+  --base-font-size: 16px;
+  --heading-font-font-family: "orpheus-pro", serif;
+  --heading-font-font-style: normal;
+  --heading-font-font-weight: 400;
+  --heading-font-text-transform: none;
+  --heading-font-letter-spacing: 0em;
+  --heading-font-line-height: 1.4em;
+  --body-font-font-family: adobe-garamond-pro;
+  --body-font-font-style: normal;
+  --body-font-font-weight: 400;
+  --body-font-text-transform: none;
+  --body-font-letter-spacing: 0em;
+  --body-font-line-height: 1.6em;
+  --meta-font-font-family: adobe-garamond-pro;
+  --meta-font-font-style: normal;
+  --meta-font-font-weight: 400;
+  --meta-font-text-transform: none;
+  --meta-font-letter-spacing: 0.02em;
+  --meta-font-line-height: 1.2em;
+  --heading-1-size: 4rem;
+  --heading-1-size-value: 4;
+  --heading-2-size: 2.8rem;
+  --heading-2-size-value: 2.8;
+  --heading-3-size: 2.2rem;
+  --heading-3-size-value: 2.2;
+  --heading-4-size: 1.2rem;
+  --heading-4-size-value: 1.2;
+  --large-text-size: 1.5rem;
+  --large-text-size-value: 1.5;
+  --normal-text-size: 1.2rem;
+  --normal-text-size-value: 1.2;
+  --small-text-size: 1rem;
+  --small-text-size-value: 1;
+  --normal-meta-size: 1.2rem;
+  --normal-meta-size-value: 1.2;
+
+  --site-navigation-font-font-family: var(--body-font-font-family);
+  --site-navigation-font-font-style: var(--body-font-font-style);
+  --site-navigation-font-font-weight: var(--body-font-font-weight);
+  --site-navigation-font-text-transform: var(--body-font-text-transform);
+  --site-navigation-font-letter-spacing: var(--body-font-letter-spacing);
+  --site-navigation-font-line-height: var(--body-font-line-height);
+  --site-navigation-font-font-size: var(--normal-text-size);
+  --site-navigation-font-font-size-value: var(--normal-text-size-value);
+  --form-block-description-text-font-font-family: var(--body-font-font-family);
+  --form-block-description-text-font-font-style: var(--body-font-font-style);
+  --form-block-description-text-font-font-weight: var(--body-font-font-weight);
+  --form-block-description-text-font-text-transform: var(
+    --body-font-text-transform
+  );
+  --form-block-description-text-font-letter-spacing: var(
+    --body-font-letter-spacing
+  );
+  --form-block-description-text-font-line-height: var(--body-font-line-height);
+  --form-block-description-text-font-font-size: var(--small-text-size);
+  --form-block-description-text-font-font-size-value: var(
+    --small-text-size-value
+  );
+
+  --white-hsl: 0, 0%, 98.04%;
+  --black-hsl: 0, 0%, 0%;
+  --safeLightAccent-hsl: 0, 0%, 86.27%;
+  --safeDarkAccent-hsl: 0, 0%, 0%;
+  --safeInverseAccent-hsl: 0, 0%, 0%;
+  --safeInverseLightAccent-hsl: 0, 0%, 0%;
+  --safeInverseDarkAccent-hsl: 0, 0%, 98.04%;
+  --accent-hsl: 0, 0%, 86.27%;
+  --lightAccent-hsl: 0, 0%, 100%;
+  --darkAccent-hsl: 0, 0%, 10.98%;
+}

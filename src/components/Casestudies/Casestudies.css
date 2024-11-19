@@ -1,0 +1,80 @@
+.cs-container {
+  /* height: 100%; */
+  background-color: #fafafa;
+  padding: 3vmax;
+}
+.cs-header {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glimpse-text {
+  text-align: center;
+  font-family: var(--heading-font-font-family);
+  font-style: var(--heading-font-font-style);
+  font-weight: var(--heading-font-font-weight);
+  line-height: 1;
+  letter-spacing: var(--heading-font-letter-spacing);
+  text-transform: var(--heading-font-text-transform);
+  font-size: 43px;
+  /* font-size: clamp(1.5rem, 2vw + 1rem, 3rem);   */
+  white-space: nowrap !important;
+  font-size: 13vw;
+}
+.cs-cases {
+  min-height: 100vh;
+  padding: 10vw 3vw;
+  display: grid;
+
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-auto-rows: min-content;
+  place-items: center;
+}
+.hover-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 3.5vw;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: var(--heading-font-font-family);
+  /* white-space: pre; */
+}
+
+.cases-img-container:hover img {
+  opacity: 1;
+}
+
+.cases-img-container:hover .hover-text {
+  opacity: 1; /* Show the text on hover */
+}
+
+@media (min-width: 769px) {
+  .glimpse-text {
+    font-size: 11vw;
+  }
+  .cs-header {
+    height: 65vh;
+  }
+  .cs-cases {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  }
+  .cs-container {
+    padding-bottom: 0;
+  }
+  .hover-text {
+    font-size: 2.8vw;
+  }
+}
